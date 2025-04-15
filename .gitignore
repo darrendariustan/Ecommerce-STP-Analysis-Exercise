@@ -1,0 +1,19 @@
+# Ignore Python cache and notebook checkpoints
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+*.pyo
+*.pyd
+# Ignore virtual environments
+.env/
+.venv/
+ENV/
+venv/
+# Ignore OS files
+.DS_Store
+Thumbs.db
+# Ignore Jupyter Notebook metadata
+*.nbconvert.ipynb
+# Ignore large data files (uncomment if you want to exclude data)
+# Others/Online Retail.xlsx
+# Others/df_clean.csv
